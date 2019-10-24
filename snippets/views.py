@@ -1,72 +1,33 @@
 from snippets.models import Snippet
 from snippets.serializers import SnippetSerializer, UserSerializer
-from rest_framework import mixins, generics, permissions, renderers
-from rest_framework.decorators import api_view
+from rest_framework import mixins, generics, permissions, renderers, viewsets
+from rest_framework.decorators import api_view, action
 from rest_framework.reverse import reverse
 from rest_framework.response import Response
 from django.contrib.auth.models import User
 from snippets.permissions import IsOwnerOrReadOnly
 
 
-# Create your views here.
-
-# class SnippetList(mixins.ListModelMixin,
-#                   mixins.CreateModelMixin,
-#                   generics.GenericAPIView):
-#     """
-#     List all code snippets, or create a new snippet
-#     """
-#     queryset = Snippet.objects.all()
-#     serializer_class = SnippetSerializer
-#
-#     def get(self, request, *args, **kwargs):
-#         return self.list(self, request, *args, **kwargs)
-#
-#     def post(self, request, *args, **kwargs):
-#         return self.create(self, request, *args, **kwargs)
-#
-#
-# class SnippetDetail(mixins.RetrieveModelMixin,
-#                     mixins.UpdateModelMixin,
-#                     mixins.DestroyModelMixin,
-#                     generics.GenericAPIView):
-#     """
-#     Retrieve, update or delete a code snippet
-#     """
-#     queryset = Snippet.objects.all()
-#     serializer_class = SnippetSerializer
-#
-#     def get(self, request, *args, **kwargs):
-#         return self.retrieve(self, request, *args, **kwargs)
-#
-#     def put(self, request, *args, **kwargs):
-#         return self.update(self, request, *args, **kwargs)
-#
-#     def delete(self, request, *args, **kwargs):
-#         return self.destroy(self, request, *args, **kwargs)
-class SnippetList(generics.ListCreateAPIView):
-    queryset = Snippet.objects.all()
-    serializer_class = SnippetSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-
-    def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
+class UserViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    This viewset automatically provides 'list' and 'detail' actions
+    """
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 
-class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Snippet.objects.all()
+class SnippetViewSet(viewsets.ModelViewSet):
+    queryset = Snippet.objecst.all()
     serializer_class = SnippetSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
 
+    @action(detail=True, renderer_classes=renderers.StaticHTMLRenderer)
+    def highlight(self, request, *args, **kwargs):
+        snippet = self.get_object()
+        return Response(snippet.highlighted)
 
-class UserList(generics.ListCreateAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
-
-
-class UserDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
 
 
 @api_view(['GET'])
@@ -75,12 +36,3 @@ def api_root(request, format=None):
         'users': reverse('user-list', request=request, format=format),
         'snippets': reverse('snippet-list', request=request, format=format)
     })
-
-
-class SnippetHighlight(generics.GenericAPIView):
-    queryset = Snippet.objects.all()
-    renderer_classes = [renderers.StaticHTMLRenderer]
-
-    def get(self, request, *args, **kwargs):
-        snippet = self.get_object()
-        return Response(snippet.highlighted)
