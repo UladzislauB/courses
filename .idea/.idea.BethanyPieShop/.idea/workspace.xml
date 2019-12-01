@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c904812-0c74-4093-ac21-90658067464b" name="Default Changelist" comment="" />
+    <list default="true" id="8c904812-0c74-4093-ac21-90658067464b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BethanyPieShop/wwwroot/content/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Pie/List.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Pie/List.cshtml.g.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/MockPieRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/Pie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -28,16 +53,22 @@
         <option value="$PROJECT_DIR$/BethanyPieShop/Models/MockPieRepository.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Models/Pie.cs" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_ViewImports.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/wwwroot/content/site.css" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UNOzp9esrXSCOoqE7663NIKqrM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../weblog/weblog.sln" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,7 +133,9 @@
       <updated>1575193853346</updated>
       <workItem from="1575193857254" duration="81000" />
       <workItem from="1575193953215" duration="9213000" />
-      <workItem from="1575211456917" duration="1050000" />
+      <workItem from="1575211456917" duration="1624000" />
+      <workItem from="1575213393174" duration="4950000" />
+      <workItem from="1575230914398" duration="721000" />
     </task>
     <servers />
   </component>
@@ -111,6 +144,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

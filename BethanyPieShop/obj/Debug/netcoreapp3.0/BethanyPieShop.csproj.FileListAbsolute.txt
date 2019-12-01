@@ -27,3 +27,6 @@
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.RazorTargetAssemblyInfo.cs
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csproj.CopyComplete
+/home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs
+/home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs
