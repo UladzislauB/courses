@@ -106,3 +106,4 @@
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/bin/Debug/netcoreapp3.0/MySqlConnector.dll
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/bin/Debug/netcoreapp3.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/bin/Debug/netcoreapp3.0/Pomelo.JsonObject.dll
+/home/qwerty/5semester/ASP.net C#/BethanyPieShop/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Pie/Detail.cshtml.g.cs
