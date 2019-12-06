@@ -11,12 +11,15 @@
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
+          <e p="ShoppingCartController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20191204183257_InitialMigration.Designer.cs" t="Include" />
           <e p="20191204183257_InitialMigration.cs" t="Include" />
           <e p="20191204190826_SeedDataAdded.Designer.cs" t="Include" />
           <e p="20191204190826_SeedDataAdded.cs" t="Include" />
+          <e p="20191206100124_ShopingCartAdded.Designer.cs" t="Include" />
+          <e p="20191206100124_ShopingCartAdded.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -29,6 +32,8 @@
           <e p="MockPieRepository.cs" t="Include" />
           <e p="Pie.cs" t="Include" />
           <e p="PieRepository.cs" t="Include" />
+          <e p="ShoppingCart.cs" t="Include" />
+          <e p="ShoppingCartItem.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -38,6 +43,7 @@
         <e p="ViewModels" t="Include">
           <e p="HomeViewModel.cs" t="Include" />
           <e p="PieListViewModel.cs" t="Include" />
+          <e p="ShoppingCartViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="Home" t="Include">
@@ -51,6 +57,9 @@
             <e p="_Carousel.cshtml" t="Include" />
             <e p="_Layout.cshtml" t="Include" />
             <e p="_PieCard.cshtml" t="Include" />
+          </e>
+          <e p="ShoppingCart" t="Include">
+            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
