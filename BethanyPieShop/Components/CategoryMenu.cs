@@ -1,0 +1,22 @@
+using System.Linq;
+using BethanyPieShop.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace BethanyPieShop.Components
+{
+    public class CategoryMenu: ViewComponent
+    {
+        private readonly ICategoryRepository _categoryRepository;
+
+        public CategoryMenu(CategoryRepository categoryRepository)
+        {
+            _categoryRepository = categoryRepository;
+        }
+
+        public IViewComponentResult Invoke()
+        {
+            var categories = _categoryRepository.AllCategories.OrderBy(c => c.CategoryName);
+            return View(categories);
+        }
+    }
+}

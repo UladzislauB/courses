@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c904812-0c74-4093-ac21-90658067464b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Controllers/ShoppingCartController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCartItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanyPieShop/ViewModels/ShoppingCartViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Views/ShoppingCart/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Models/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Views/Pie/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Pie/Detail.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_PieCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_PieCard.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Components/CategoryMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Components/ShoppingCartSummary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethanyPieShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Controllers/PieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Controllers/PieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/bin/Debug/netcoreapp3.0/BethanyPieShop.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/BethanyPieShop.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.TagHelpers.output.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/BethanyPieShop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyPieShop/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyPieShop/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,21 +78,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCartItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Components/ShoppingCartSummary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/_PieCard.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/MockPieRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Controllers/ShoppingCartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/ViewModels/HomeViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/ViewModels/ShoppingCartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/Pie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/ViewModels/PieListViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Components/CategoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Carousel.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/ShoppingCart/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Models/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/588E3632-418C-426E-B5DF-4F46ADFF6033/a5/0181eea5/Database.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BethanyPieShop/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -121,12 +131,10 @@
         <option value="$PROJECT_DIR$/BethanyPieShop/Migrations/20191204125005_InitialMigration.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/_ViewImports.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Pie/List.cshtml" />
-        <option value="$PROJECT_DIR$/BethanyPieShop/Controllers/PieController.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/ViewModels/HomeViewModel.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Carousel.cshtml" />
-        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCartItem.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Models/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Models/ShoppingCart.cs" />
@@ -137,6 +145,12 @@
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/ShoppingCart/Index.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_PieCard.cshtml" />
         <option value="$PROJECT_DIR$/BethanyPieShop/Views/Pie/Detail.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Components/ShoppingCartSummary.cs" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Components/CategoryMenu.cs" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml" />
+        <option value="$PROJECT_DIR$/BethanyPieShop/Controllers/PieController.cs" />
       </list>
     </option>
   </component>
@@ -251,6 +265,8 @@
       <workItem from="1575458587511" duration="15222000" />
       <workItem from="1575574867475" duration="3446000" />
       <workItem from="1575615260934" duration="8889000" />
+      <workItem from="1575636897914" duration="1338000" />
+      <workItem from="1575663593006" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -282,20 +298,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/BethanyPieShop/Views/Shared/_Layout.cshtml" initialLine="22" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BethanyPieShop/Controllers/HomeController.cs</url>
           <line>22</line>

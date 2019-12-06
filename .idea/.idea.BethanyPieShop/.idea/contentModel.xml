@@ -8,6 +8,10 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="BethanyPieShop" t="IncludeRecursive">
         <e p="BethanyPieShop.csproj" t="IncludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="CategoryMenu.cs" t="Include" />
+          <e p="ShoppingCartSummary.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
@@ -54,6 +58,14 @@
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
+            <e p="Components" t="Include">
+              <e p="CategoryMenu" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+              <e p="ShoppingCartSummary" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+            </e>
             <e p="_Carousel.cshtml" t="Include" />
             <e p="_Layout.cshtml" t="Include" />
             <e p="_PieCard.cshtml" t="Include" />
