@@ -9,6 +9,7 @@
       <e p="BethanyPieShop" t="IncludeRecursive">
         <e p="BethanyPieShop.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
@@ -35,15 +36,21 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
+          <e p="HomeViewModel.cs" t="Include" />
           <e p="PieListViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Pie" t="Include">
             <e p="Detail.cshtml" t="Include" />
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
+            <e p="_Carousel.cshtml" t="Include" />
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_PieCard.cshtml" t="Include" />
           </e>
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
