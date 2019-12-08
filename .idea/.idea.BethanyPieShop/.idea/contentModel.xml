@@ -69,6 +69,7 @@
           </e>
           <e p="Order" t="Include">
             <e p="Checkout.cshtml" t="Include" />
+            <e p="CheckoutComplete.cshtml" t="Include" />
           </e>
           <e p="Pie" t="Include">
             <e p="Detail.cshtml" t="Include" />
