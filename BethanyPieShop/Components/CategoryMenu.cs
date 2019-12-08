@@ -8,7 +8,7 @@ namespace BethanyPieShop.Components
     {
         private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryMenu(CategoryRepository categoryRepository)
+        public CategoryMenu(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
         }

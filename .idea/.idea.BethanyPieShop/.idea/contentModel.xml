@@ -13,6 +13,7 @@
           <e p="ShoppingCartSummary.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
+          <e p="ContactController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
           <e p="ShoppingCartController.cs" t="Include" />
@@ -44,12 +45,18 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="TagHelpers" t="Include">
+          <e p="EmailTagHelper.cs" t="Include" />
+        </e>
         <e p="ViewModels" t="Include">
           <e p="HomeViewModel.cs" t="Include" />
           <e p="PieListViewModel.cs" t="Include" />
           <e p="ShoppingCartViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="Contact" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
