@@ -15,6 +15,7 @@
         <e p="Controllers" t="Include">
           <e p="ContactController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
           <e p="PieController.cs" t="Include" />
           <e p="ShoppingCartController.cs" t="Include" />
         </e>
@@ -25,6 +26,8 @@
           <e p="20191204190826_SeedDataAdded.cs" t="Include" />
           <e p="20191206100124_ShopingCartAdded.Designer.cs" t="Include" />
           <e p="20191206100124_ShopingCartAdded.cs" t="Include" />
+          <e p="20191208162018_OrderClassesAdded.Designer.cs" t="Include" />
+          <e p="20191208162018_OrderClassesAdded.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -32,9 +35,13 @@
           <e p="Category.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
           <e p="ICategoryRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="IPieRepository.cs" t="Include" />
           <e p="MockCategoryRepository.cs" t="Include" />
           <e p="MockPieRepository.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="OrderDetail.cs" t="Include" />
+          <e p="OrderRepository.cs" t="Include" />
           <e p="Pie.cs" t="Include" />
           <e p="PieRepository.cs" t="Include" />
           <e p="ShoppingCart.cs" t="Include" />
@@ -59,6 +66,9 @@
           </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Checkout.cshtml" t="Include" />
           </e>
           <e p="Pie" t="Include">
             <e p="Detail.cshtml" t="Include" />
