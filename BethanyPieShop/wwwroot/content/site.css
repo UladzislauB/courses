@@ -95,6 +95,10 @@ footer {
     border-color: #fba1a1 !important;
 }
 
+button.btn.btn-link {
+    margin-top: 0.5em;
+}
+
 .btn
 {
     background-color: #fcaeae !important;

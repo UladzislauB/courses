@@ -38,10 +38,11 @@ namespace BethanyPieShop.Models
         [Required(ErrorMessage = "Please enter your city")]
         [StringLength(50)]
         public string City { get; set; }
+        [StringLength(10)]
         public string State { get; set; }
         
         [Required(ErrorMessage = "Please enter your country")]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Country { get; set; }
         
         [Required(ErrorMessage = "Please enter your phone number")]
