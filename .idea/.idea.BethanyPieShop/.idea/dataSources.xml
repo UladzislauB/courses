@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="soy-storm-259715:europe-west3:myinstance" uuid="b97632d9-80a1-42cf-8c92-7a9560ac1917">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://34.89.212.2:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@34.89.212.2" uuid="554df36c-733f-4242-9887-8b74a1a80893">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://34.89.212.2:3306</jdbc-url>
+    </data-source>
+  </component>
+</project>
