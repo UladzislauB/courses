@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-kotlin-codelabs-codelab3(Trivia).iml" filepath="$PROJECT_DIR$/android-kotlin-codelabs-codelab3(Trivia).iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/android-kotlin-codelabs-codelab3(Trivia)-app.iml" filepath="$PROJECT_DIR$/app/android-kotlin-codelabs-codelab3(Trivia)-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/codelab3(Trivia).iml" filepath="$PROJECT_DIR$/codelab3(Trivia).iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/codelab3(Trivia)-app.iml" filepath="$PROJECT_DIR$/app/codelab3(Trivia)-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/courses-android-kotlin-codelabs-codelab3(Trivia).iml" filepath="$PROJECT_DIR$/courses-android-kotlin-codelabs-codelab3(Trivia).iml" />
     </modules>
   </component>
 </project>
