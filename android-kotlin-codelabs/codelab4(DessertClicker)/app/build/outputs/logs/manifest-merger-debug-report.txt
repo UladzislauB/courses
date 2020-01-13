@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b88bdbcaf4aafd1a126ae9880e0b3576/databinding-adapters-3.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/9b242c88b96b1777da1bb32ce543b5eb/databinding-runtime-3.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/221abc5435bd8cca2927dc36e4b2df64/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d6f4b8f5b1894e90f52595015f883f7c/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f8e4de752aa12795b2e20d251eb986a1/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f84fbd1bb66ec4949229b1c13571b35b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/48a276cbcfafc8610340d96f85809c24/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d7837ac224621a688f4c01f600fe6ea2/recyclerview-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/85501728f23ea2f9aaac3efbca794447/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b6e64b4763696848ddc4d39223a60d30/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/044e73625373e41d6dec729cb4dfd7f4/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/39fe7bccd676af11ea60a30e17b5c115/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7a1d5cd66545cdac6d848cee7a68b0e7/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/29a384cf96f83611ded809b08a6ec468/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/5072c017d2dc85a1e26e44aca9dbcdc6/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2bdfca37f2ca62bf3353dcae58a4cba2/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1b6b667041ee6755feb90290afd42e50/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3880c5a0ae410c335d2004de5ba3f673/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/a16cea83b34e741f1e8b68a91489be07/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3dbeba09ae57ad04802c1900e53e7dba/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1da382e8202213057e7549fa0b3ab113/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b203fcae2746cb4d35a0f8b13ff1e104/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2670cb47611c993e0d9c5f56b50c8996/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8b8d70e584776bbb3841feaae3c3b1ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/868d17a16ed255533e353d7a568ad6da/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7857375707dbdee9bd556c50760f1a58/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8acf84692cea40c7a8489df32d23bbbb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/4b5e4fc4c92f4ff4a3907c510b3a88e4/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/93cdf54ca440feb0e26b8a26037a9720/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3ec511d4e0e0f01047c4329d74364229/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+	package
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:18:5-49
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:1-37:12
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:20:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/221abc5435bd8cca2927dc36e4b2df64/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/221abc5435bd8cca2927dc36e4b2df64/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f8e4de752aa12795b2e20d251eb986a1/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f8e4de752aa12795b2e20d251eb986a1/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1da382e8202213057e7549fa0b3ab113/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1da382e8202213057e7549fa0b3ab113/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:25:9-61
+	android:icon
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:23:9-50
+	android:allowBackup
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:21:9-43
+activity#com.example.android.dessertclicker.MainActivity
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:28:19-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b88bdbcaf4aafd1a126ae9880e0b3576/databinding-adapters-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b88bdbcaf4aafd1a126ae9880e0b3576/databinding-adapters-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/9b242c88b96b1777da1bb32ce543b5eb/databinding-runtime-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/9b242c88b96b1777da1bb32ce543b5eb/databinding-runtime-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/221abc5435bd8cca2927dc36e4b2df64/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/qwerty/.gradle/caches/transforms-2/files-2.1/221abc5435bd8cca2927dc36e4b2df64/constraintlayout-2.0.0-alpha2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d6f4b8f5b1894e90f52595015f883f7c/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d6f4b8f5b1894e90f52595015f883f7c/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f8e4de752aa12795b2e20d251eb986a1/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f8e4de752aa12795b2e20d251eb986a1/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f84fbd1bb66ec4949229b1c13571b35b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/f84fbd1bb66ec4949229b1c13571b35b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/48a276cbcfafc8610340d96f85809c24/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/48a276cbcfafc8610340d96f85809c24/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d7837ac224621a688f4c01f600fe6ea2/recyclerview-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /home/qwerty/.gradle/caches/transforms-2/files-2.1/d7837ac224621a688f4c01f600fe6ea2/recyclerview-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/85501728f23ea2f9aaac3efbca794447/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/85501728f23ea2f9aaac3efbca794447/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b6e64b4763696848ddc4d39223a60d30/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b6e64b4763696848ddc4d39223a60d30/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/044e73625373e41d6dec729cb4dfd7f4/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/044e73625373e41d6dec729cb4dfd7f4/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/39fe7bccd676af11ea60a30e17b5c115/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/39fe7bccd676af11ea60a30e17b5c115/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7a1d5cd66545cdac6d848cee7a68b0e7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7a1d5cd66545cdac6d848cee7a68b0e7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/29a384cf96f83611ded809b08a6ec468/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/29a384cf96f83611ded809b08a6ec468/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/5072c017d2dc85a1e26e44aca9dbcdc6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/5072c017d2dc85a1e26e44aca9dbcdc6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2bdfca37f2ca62bf3353dcae58a4cba2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2bdfca37f2ca62bf3353dcae58a4cba2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1b6b667041ee6755feb90290afd42e50/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1b6b667041ee6755feb90290afd42e50/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3880c5a0ae410c335d2004de5ba3f673/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3880c5a0ae410c335d2004de5ba3f673/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/a16cea83b34e741f1e8b68a91489be07/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/a16cea83b34e741f1e8b68a91489be07/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/955e016b888fc2dde2d04935bbc100d6/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3dbeba09ae57ad04802c1900e53e7dba/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3dbeba09ae57ad04802c1900e53e7dba/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1da382e8202213057e7549fa0b3ab113/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/1da382e8202213057e7549fa0b3ab113/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b203fcae2746cb4d35a0f8b13ff1e104/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/b203fcae2746cb4d35a0f8b13ff1e104/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2670cb47611c993e0d9c5f56b50c8996/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/2670cb47611c993e0d9c5f56b50c8996/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8b8d70e584776bbb3841feaae3c3b1ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8b8d70e584776bbb3841feaae3c3b1ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/868d17a16ed255533e353d7a568ad6da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/868d17a16ed255533e353d7a568ad6da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7857375707dbdee9bd556c50760f1a58/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/7857375707dbdee9bd556c50760f1a58/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8acf84692cea40c7a8489df32d23bbbb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/8acf84692cea40c7a8489df32d23bbbb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/4b5e4fc4c92f4ff4a3907c510b3a88e4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/4b5e4fc4c92f4ff4a3907c510b3a88e4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/93cdf54ca440feb0e26b8a26037a9720/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/93cdf54ca440feb0e26b8a26037a9720/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3ec511d4e0e0f01047c4329d74364229/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/qwerty/.gradle/caches/transforms-2/files-2.1/3ec511d4e0e0f01047c4329d74364229/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		ADDED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qwerty/__study__/courses/android-kotlin-codelabs/codelab4(DessertClicker)/app/src/main/AndroidManifest.xml
