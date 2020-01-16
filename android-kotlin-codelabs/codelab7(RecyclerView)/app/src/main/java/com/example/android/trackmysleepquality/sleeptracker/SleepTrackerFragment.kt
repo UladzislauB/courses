@@ -106,6 +106,15 @@ class SleepTrackerFragment : Fragment() {
                 sleepTrackerViewModel.doneNavigating()
             }
         })
+
+        // Instantiating adapter for RecyclerView with all nights
+        val adapter = SleepNightAdapter()
+        binding.sleepList.adapter = adapter
+
+        // Creating observer for nights variable in ViewModel
+        sleepTrackerViewModel.nights.observe(this, Observer {
+            it?.let { adapter.data = it }
+        })
         return binding.root
     }
 }
