@@ -113,7 +113,9 @@ class SleepTrackerFragment : Fragment() {
 
         // Creating observer for nights variable in ViewModel
         sleepTrackerViewModel.nights.observe(this, Observer {
-            it?.let { adapter.data = it }
+            it?.let {
+                adapter.submitList(it)
+            }
         })
         return binding.root
     }
