@@ -18,6 +18,7 @@ package com.example.android.trackmysleepquality.sleeptracker
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
@@ -32,24 +33,51 @@ class SleepTrackerViewModel(
         val database: SleepDatabaseDao,
         application: Application) : AndroidViewModel(application) {
 
+    private val _navigateToSleepQuality = MutableLiveData<SleepNight>()
+    val navigateToSleepQuality: LiveData<SleepNight>
+    get() = _navigateToSleepQuality
+
     private var viewModelJob = Job()
-
-
     /** The scope determines what thread the coroutine will run on,
      *  and the scope also needs to know about the job.
      */
     private val uiscope = CoroutineScope(Dispatchers.Main + viewModelJob)
 
+    // Tonight
     private var tonight = MutableLiveData<SleepNight?>()
 
+    // All nights
     private val nights = database.getAllNights()
     val nightString = Transformations.map(nights) { nights ->
         formatNights(nights, application.resources)
     }
 
+    // Boolean for showing snackbar
+    private val _showSnackbarEvent = MutableLiveData<Boolean>()
+    val showSnackbarEvent: LiveData<Boolean>
+        get() = _showSnackbarEvent
+
+    fun doneShowingSnackbar() {
+        _showSnackbarEvent.value =false
+    }
+
+    // Enable buttons states
+    val startButtonVisible = Transformations.map(tonight) {
+        it == null
+    }
+    val stopButtonVisible = Transformations.map(tonight) {
+        it != null
+    }
+    val clearButtonVisible = Transformations.map(nights) {
+        it?.isNotEmpty()
+    }
 
     init {
         initializeTonight()
+    }
+
+    fun doneNavigating() {
+        _navigateToSleepQuality.value = null
     }
 
     private fun initializeTonight() {
@@ -90,6 +118,7 @@ class SleepTrackerViewModel(
             val oldNight = tonight.value ?: return@launch
             oldNight.endTimeMilli = System.currentTimeMillis()
             update(oldNight)
+            _navigateToSleepQuality.value = oldNight
         }
     }
 
@@ -104,6 +133,7 @@ class SleepTrackerViewModel(
         uiscope.launch {
             clear()
             tonight.value = null
+            _showSnackbarEvent.value = true
         }
     }
 
