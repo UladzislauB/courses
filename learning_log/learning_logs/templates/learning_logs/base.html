@@ -1,13 +1,49 @@
-<p>
-    <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
-    <a href="{% url 'learning_logs:topics' %}">Topics</a> -
-    {% if user.is_authenticated %}
-        Hello, {{ user.username }}.
-        <a href="{% url 'users:logout' %}">log out</a>
-    {% else %}
-        <a href="{% url 'users:register' %}">register</a> -
-        <a href="{% url 'users:login' %}">log in</a>
-    {% endif %}
-</p>
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% block content %}{% endblock content %}
+    <title>Learning Log</title>
+
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+<!-- Static top navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="{% url 'learning_logs:index' %}">Learning Log</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'learning_logs:topics' %}">Topics</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ">
+            {% if user.is_authenticated %}
+                <li class="nav-item"><a class="nav-link text-black">Hello, {{ user.username }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'users:logout' %}">log out</a></li>
+            {% else %}
+                <li class="nav-item"><a href="{% url 'users:register' %}" class="nav-link">register</a></li>
+                <li class="nav-item"><a href="{% url 'users:login' %}" class="nav-link">log in</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="page-header">
+        {% block header %}{% endblock header %}
+    </div>
+    <div>
+        {% block content %}{% endblock content %}
+    </div>
+
+</div>
+</body>
+</html>
