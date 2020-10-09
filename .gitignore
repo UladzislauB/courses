@@ -165,6 +165,7 @@ proguard/
 captures/
 
 # IntelliJ
+*.ws.kts
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
@@ -326,5 +327,38 @@ fabric.properties
 ### AndroidStudio Patch ###
 
 !/gradle/wrapper/gradle-wrapper.jar
+### C++ ###
+# Prerequisites
+*.d
+input.txt
+output.txt
 
-# End of https://www.gitignore.io/api/android,androidstudio
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
